@@ -1,0 +1,16 @@
+#!/bin/bash
+
+sudo pip install awscli --upgrade
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible
+ansible --version
+
+sudo su -
+ssh-keygen 
+/root/.ssh/your_name
+ssh-agent bash
+ssh-add /root/.ssh/your_name
+ssh-add -l
+
